@@ -1,0 +1,1 @@
+The files contained in this archive were developed to pass the FreeCodeCamp.org's responsive web design certification in 2019.
