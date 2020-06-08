@@ -1,13 +1,15 @@
 /* Google Font Import */
 
 @import url("https://fonts.googleapis.com/css?family=Cinzel");
-  
+
 /* Element Formatting */
 
 body {
   background-color: #d8d4c7;
-  margin: 0; /* Removes Margin */
+  margin: 0;
+  /* Removes Margin */
 }
+
 h1 {
   font-family: Cinzel, arial;
   text-align: center;
@@ -19,6 +21,7 @@ h1 {
   margin-top: 0;
   padding: 0.625rem;
 }
+
 h2 {
   font-family: Cinzel, arial;
   text-align: left;
@@ -28,6 +31,7 @@ h2 {
   padding-right: 9.375rem;
   margin-top: 5rem;
 }
+
 /* ID Formatting */
 
 #einstein-quote {
@@ -38,6 +42,7 @@ h2 {
   color: #514d3f;
   line-height: 1.5625rem;
 }
+
 #image {
   width: 90%;
   max-width: 1024px;
@@ -50,6 +55,7 @@ h2 {
   padding: 0.125rem;
   box-shadow: 0 0.625rem 1.25rem;
 }
+
 #img-caption {
   font-family: Cinzel, arial;
   text-align: center;
@@ -58,6 +64,7 @@ h2 {
   margin-top: 1.25rem;
   margin-bottom: 3.125rem;
 }
+
 #signature {
   width: 20%;
   min-width: 200px;
@@ -66,6 +73,7 @@ h2 {
   margin: auto;
   padding-top: 0.625rem;
 }
+
 #tribute-info {
   font-family: Cinzel, arial;
   font-size: 1.25rem;
@@ -75,6 +83,7 @@ h2 {
   text-align: justify;
   text-justify: inter-word;
 }
+
 #quick-facts {
   text-align: left;
   font-family: Cinzel, arial;
@@ -83,6 +92,7 @@ h2 {
   padding-left: 9.375rem;
   padding-right: 9.375rem;
 }
+
 #wiki-info {
   text-align: center;
   font-family: Cinzel, arial;
@@ -99,12 +109,15 @@ h2 {
 #tribute-link:link {
   color: #0d0c0c;
 }
+
 #tribute-link:visited {
   color: #a84343;
 }
+
 #tribute-link:hover {
   color: #ebd517;
 }
+
 #tribute-link:active {
   color: #f50a0a;
 }
@@ -115,56 +128,69 @@ h2 {
   h1 {
     font-size: 2.6rem;
   }
+
   h2 {
     font-size: 1.2rem;
     padding-left: 1.9rem;
     padding-right: 1.9rem;
   }
+
   #einstein-quote {
     font-size: 1.3rem;
   }
+
   #img-caption {
     font-size: 0.7rem;
   }
+
   #tribute-info {
     font-size: 1.1rem;
     padding-left: 1.9rem;
     padding-right: 1.9rem;
   }
+
   #quick-facts {
     font-size: 1.1rem;
     padding-left: 1.9rem;
     padding-right: 1.9rem;
   }
+
   #wiki-info {
     font-size: 0.7rem;
   }
 }
+
 @media (max-width: 600px) {
   h1 {
     font-size: 2.2rem;
   }
+
   h2 {
     font-size: 1.1rem;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
   }
+
   #einstein-quote {
     font-size: 1.2rem;
   }
+
   #img-caption {
     font-size: 0.6rem;
   }
+
   #tribute-info {
     font-size: 1rem;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
   }
+
   #quick-facts {
     font-size: 1rem;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
   }
+
   #wiki-info {
     font-size: 0.6rem;
   }
@@ -174,27 +200,33 @@ h2 {
   h1 {
     font-size: 1.6rem;
   }
+
   h2 {
     font-size: 1rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
   }
+
   #einstein-quote {
     font-size: 1.3rem;
   }
+
   #img-caption {
     font-size: 0.6rem;
   }
+
   #tribute-info {
     font-size: 0.9rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
   }
+
   #quick-facts {
     font-size: 0.9rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
   }
+
   #wiki-info {
     font-size: 0.6rem;
   }
