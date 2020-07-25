@@ -1,2 +1,3 @@
-# fcc-tribute-page
-freeCodeCamp responsive web design certification - project 1
+# tribute-page
+
+Responsive webpage tribute to Albert Einstein.
