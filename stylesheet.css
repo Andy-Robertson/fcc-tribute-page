@@ -2,39 +2,33 @@
 
 @import url("https://fonts.googleapis.com/css?family=Cinzel");
 
-/* Element Formatting */
+/* Page styling */
 
-body {
+.body-container {
   background-color: #d8d4c7;
   margin: 0;
-  /* Removes Margin */
 }
-
-h1 {
+.page-title {
   font-family: Cinzel, arial;
   text-align: center;
   font-size: 3rem;
   color: #514d3f;
   background-color: #b2ab80;
   box-shadow: 0 0.625rem 1.25rem;
-  margin-bottom: 5.625rem;
-  margin-top: 0;
+  margin: 0 0 5.625rem;
   padding: 0.625rem;
 }
 
-h2 {
+.heading-title {
   font-family: Cinzel, arial;
   text-align: left;
   font-size: 1.25rem;
   color: #514d3f;
-  padding-left: 9.375rem;
-  padding-right: 9.375rem;
+  padding: 0 9.375rem 0;
   margin-top: 5rem;
 }
 
-/* ID Formatting */
-
-#einstein-quote {
+.quote-einstein {
   font-family: Cinzel, arial;
   text-align: center;
   font-size: 1.75rem;
@@ -43,7 +37,7 @@ h2 {
   line-height: 1.5625rem;
 }
 
-#image {
+.img-einstein {
   width: 90%;
   max-width: 1024px;
   display: block;
@@ -56,16 +50,15 @@ h2 {
   box-shadow: 0 0.625rem 1.25rem;
 }
 
-#img-caption {
+.img-caption {
   font-family: Cinzel, arial;
   text-align: center;
   color: #514d3f;
   font-size: 0.75rem;
-  margin-top: 1.25rem;
-  margin-bottom: 3.125rem;
+  margin: 1.25rem 0 3.125rem;
 }
 
-#signature {
+.img-signature {
   width: 20%;
   min-width: 200px;
   display: Block;
@@ -74,26 +67,24 @@ h2 {
   padding-top: 0.625rem;
 }
 
-#tribute-info {
+.tribute-info {
   font-family: Cinzel, arial;
   font-size: 1.25rem;
   color: #514d3f;
-  padding-left: 9.375rem;
-  padding-right: 9.375rem;
+  padding: 0 9.375rem 0;
   text-align: justify;
   text-justify: inter-word;
 }
 
-#quick-facts {
+.quick-facts {
   text-align: left;
   font-family: Cinzel, arial;
   font-size: 1.25rem;
   color: #514d3f;
-  padding-left: 9.375rem;
-  padding-right: 9.375rem;
+  padding: 0 9.375rem 0;
 }
 
-#wiki-info {
+.wiki-info {
   text-align: center;
   font-family: Cinzel, arial;
   color: #514d3f;
@@ -106,128 +97,114 @@ h2 {
 
 /* WiKi Link Interaction Behaviour */
 
-#tribute-link:link {
+.tribute-link:link {
   color: #0d0c0c;
 }
 
-#tribute-link:visited {
+.tribute-link:visited {
   color: #a84343;
 }
 
-#tribute-link:hover {
+.tribute-link:hover {
   color: #ebd517;
 }
 
-#tribute-link:active {
+.tribute-link:active {
   color: #f50a0a;
 }
 
 /* Media Queries */
 
 @media (max-width: 1000px) {
-  h1 {
+  .page-title {
     font-size: 2.6rem;
   }
 
-  h2 {
+  .heading-title {
     font-size: 1.2rem;
-    padding-left: 1.9rem;
-    padding-right: 1.9rem;
   }
 
-  #einstein-quote {
+  .tribute-info,
+  .quick-facts {
+    font-size: 1.1rem;
+  }
+
+  .tribute-info,
+  .quick-facts,
+  .heading-title {
+    padding: 0 1.9rem 0;
+  }
+  .quote-einstein {
     font-size: 1.3rem;
   }
 
-  #img-caption {
+  .img-caption {
     font-size: 0.7rem;
   }
 
-  #tribute-info {
-    font-size: 1.1rem;
-    padding-left: 1.9rem;
-    padding-right: 1.9rem;
-  }
-
-  #quick-facts {
-    font-size: 1.1rem;
-    padding-left: 1.9rem;
-    padding-right: 1.9rem;
-  }
-
-  #wiki-info {
+  .wiki-info {
     font-size: 0.7rem;
   }
 }
 
 @media (max-width: 600px) {
-  h1 {
+  .page-title {
     font-size: 2.2rem;
   }
 
-  h2 {
+  .heading-title {
     font-size: 1.1rem;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
   }
 
-  #einstein-quote {
+  .tribute-info,
+  .quick-facts {
+    font-size: 1rem;
+  }
+
+  .tribute-info,
+  .quick-facts,
+  .heading-title {
+    padding: 0 1.6rem 0;
+  }
+  .quote-einstein {
     font-size: 1.2rem;
   }
-
-  #img-caption {
+  .img-caption {
     font-size: 0.6rem;
   }
 
-  #tribute-info {
-    font-size: 1rem;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-  }
-
-  #quick-facts {
-    font-size: 1rem;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-  }
-
-  #wiki-info {
+  .wiki-info {
     font-size: 0.6rem;
   }
 }
 
 @media (max-width: 400px) {
-  h1 {
+  .page-title {
     font-size: 1.6rem;
   }
 
-  h2 {
+  .heading-title {
     font-size: 1rem;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
   }
 
-  #einstein-quote {
+  .tribute-info,
+  .quick-facts {
+    font-size: 0.9rem;
+  }
+
+  .tribute-info,
+  .quick-facts,
+  .heading-title {
+    padding: 0 1.2rem 0;
+  }
+  .quote-einstein {
     font-size: 1.3rem;
   }
-
-  #img-caption {
+  .img-caption {
     font-size: 0.6rem;
   }
 
-  #tribute-info {
-    font-size: 0.9rem;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-  }
-
-  #quick-facts {
-    font-size: 0.9rem;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-  }
-
-  #wiki-info {
+  .wiki-info {
     font-size: 0.6rem;
   }
 }
