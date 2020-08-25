@@ -1,65 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
   <!-- CSS IMPORT -->
-
   <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert Einstein Tribute Page</title>
 </head>
 
-<body>
+<body class="body-container">
+  <header role="banner">
+    <h1 id="title" class="page-title" role="heading"><strong>Albert Einstein</strong></h1>
+  </header>
   <main id="main">
-    <h1 id="title"><strong>Albert Einstein</strong></h1>
     <div id="img-div">
-      <img id="image" src="img/Albert_Einstein.jpg"
-        alt="Artist's impression of Albert Einstein courtesy of wallpapercave.com">
-      <div id="img-caption">
+      <img id="image" class="img-einstein" src="https://wallpapercave.com/wp/5rtdIjc.jpg" alt="Artist's impression of Albert Einstein" aria-label="Artist's impression of Albert Einstein centered on page">
+      <div id="img-caption" class="img-caption">
         Einstein the great thinker.
       </div>
     </div>
     <blockquote>
-      <div id="einstein-quote">
+      <div id="quote-einstein" class="quote-einstein">
         <p>"Imagination is more important than knowledge.</p>
         <p>Knowledge is limited.</p>
         <p>Imagination encircles the world."</p>
       </div>
-      <img id="signature" src="img/Albert_Einstein_signature.svg.png" alt="Albert Einstein's signature">
+      <img id="signature" class="img-signature" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Albert_Einstein_signature_1934.svg" alt="Albert Einstein's signature" aria-label="Albert Einstein's signature centered under his quote">
     </blockquote>
-    <h2>Genius In The Making</h2>
-    <div id="tribute-info">
-      <p>Albert Einstein became synonymous with genius after making several important scientific discoveries in the
-        fields of mathematics and physics in the early 19th century which fundamentally changed the way we look at the
-        world.</p>
-      <p>He was born in Germany but later renounced his German citizenship becoming a Swiss national, however, he was
-        unable to secure a teaching job in Switzerland and was forced to become an assistant in a patent clerk office in
-        1901. It was here he published
-        his first academic paper and in 1905 the University of Zurich awarded him a doctorate.</p>
-      <p>After publishing several more papers he was becoming well known within scientific circles and returned to
-        Germany where he held several prestigious positions including the president of the German Physics Society. He
-        was awarded a Nobel Prize in
-        1921 for his service to theoretical physics and his work on the Photoelectric Effect.</p>
-      <p>When Hitler came to power in Germany Albert decided to move to the US where he was greeted like royalty by
-        President Roosevelt taking up a position at Princeton University and becoming a US citizen in 1940.</p>
-      <p>15 years later at the age of 76, he died from internal bleeding which was marked with headlines throughout the
-        world.</p>
-    </div>
-    <h2>Ouick Facts & Interesting Trivia</h2>
-    <ul id="quick-facts">
-      <li>Graduated from the University of Zurich with a PhD <em>- (1905)</em></li>
-      <li>Published his paper on the laws of the photoelectric effect <em>- (1905)</em></li>
-      <li>Published his paper on the theory of special relativity <em>- (1905)</em></li>
-      <li>Published his paper on the theory of general relativity <em>- (1916)</em></li>
-      <li>Received a Nobel Prize for his work on the law of the photoelectric effect <em>- (1921)</em></li>
-      <li>He published over 300 academic papers and 150 non-scientific works</li>
-      <li>Reported to have had an IQ of over 160</li>
-      <li>Albert was Dyslexic and required a secretery to complete his written work</li>
-      <li>He dinouonced the use of nuclear fusion as a weapon</li>
-    </ul>
-    <div id="wiki-info">Want to learn more about this amazing scientist? Then check out his <a id="tribute-link"
-        href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank"><strong>Wiki.</strong></a></div>
-    </div>
+    <article role="article">
+      <h2 class="heading-title" role="heading">Genius In The Making</h2>
+      <div id="tribute-info" class="tribute-info">
+        <p>Albert Einstein became synonymous with genius after making several important scientific discoveries in the fields of mathematics and physics in the early 19th century which fundamentally changed the way we look at the world.</p>
+        <p>He was born in Germany but later renounced his German citizenship becoming a Swiss national, however, he was unable to secure a teaching job in Switzerland and was forced to become an assistant in a patent clerk office in 1901. It was here he published
+          his first academic paper and in 1905 the University of Zurich awarded him a doctorate.</p>
+        <p>After publishing several more papers he was becoming well known within scientific circles and returned to Germany where he held several prestigious positions including the president of the German Physics Society. He was awarded a Nobel Prize in 1921
+          for his service to theoretical physics and his work on the Photoelectric Effect.</p>
+        <p>When Hitler came to power in Germany Albert decided to move to the US where he was greeted like royalty by President Roosevelt taking up a position at Princeton University and becoming a US citizen in 1940.</p>
+        <p>15 years later at the age of 76, he died from internal bleeding which was marked with headlines throughout the world.</p>
+      </div>
+      <h2 class="heading-facts heading-title" role="heading">Ouick Facts & Interesting Trivia</h2>
+      <ul id="quick-facts" class="quick-facts">
+        <li>Graduated from the University of Zurich with a PhD <em>- (1905)</em></li>
+        <li>Published his paper on the laws of the photoelectric effect <em>- (1905)</em></li>
+        <li>Published his paper on the theory of special relativity <em>- (1905)</em></li>
+        <li>Published his paper on the theory of general relativity <em>- (1916)</em></li>
+        <li>Received a Nobel Prize for his work on the law of the photoelectric effect <em>- (1921)</em></li>
+        <li>He published over 300 academic papers and 150 non-scientific works</li>
+        <li>Reported to have had an IQ of over 160</li>
+        <li>Albert was Dyslexic and required a secretery to complete his written work</li>
+        <li>He dinouonced the use of nuclear fusion as a weapon</li>
+      </ul>
+    </article>
   </main>
+
+  <footer id="wiki-info" class="wiki-info" role="contentinfo">Want to learn more about this amazing scientist? Then check out his <a href="https://en.wikipedia.org/wiki/Albert_Einstein/" target="_blank" id="tribute-link" class="tribute-link"><strong>Wiki.</strong></a></footer>
+
 </body>
 
 </html>
